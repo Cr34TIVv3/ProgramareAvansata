@@ -110,11 +110,11 @@ public class Optional {
 
     static int label = 1;
 
-    public static void DFS_components(int i, int[] visited, int[][] matrix, int n) {
+    public static void dfsComponents(int i, int[] visited, int[][] matrix, int n) {
         visited[i] = label;
         for (int j=0; j<n; j++ ) {
             if(matrix[i][j] == 1 && visited[j] == 0) {
-                DFS_components(j, visited, matrix, n);
+                dfsComponents(j, visited, matrix, n);
             }
         }
     }
@@ -128,7 +128,7 @@ public class Optional {
 
         for( int i=0; i<n; i++) {
             if(visited[i] == 0) {
-                DFS_components(i, visited, matrix, n);
+                dfsComponents(i, visited, matrix, n);
                 label++;
             }
         }
@@ -162,7 +162,7 @@ public class Optional {
         int [][]SPmatrix = new int[n][n];
         int []visited = new int[n];
         DFS_sp(0, visited, matrix, n, SPmatrix);
-        //displayMatrix(SPmatrix, n);
+        displayMatrix(SPmatrix, n);
     }
 
 
@@ -186,7 +186,7 @@ public class Optional {
                 else {
                     int [][]matrix = new int[n][n];
                     createRandomGraph(matrix, n);
-                    //displayMatrix(matrix, n);
+                    displayMatrix(matrix, n);
                     displayComponents(matrix, n);
                 }
             }

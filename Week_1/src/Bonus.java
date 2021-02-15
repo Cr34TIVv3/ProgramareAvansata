@@ -22,7 +22,7 @@ public class Bonus {
 
     public static void main(String[] args) {
         int maxNodes = 2;
-        int maxLevel = 2;
+        int maxLevel = 4;
         printRandomTree(1, maxNodes, maxLevel);
     }
 }
