@@ -162,12 +162,14 @@ public class Optional {
         int [][]SPmatrix = new int[n][n];
         int []visited = new int[n];
         DFS_sp(0, visited, matrix, n, SPmatrix);
-        displayMatrix(SPmatrix, n);
+        //displayMatrix(SPmatrix, n);
     }
 
 
     public static void main(String[] args) {
         //bibliography https://www.javatpoint.com/java-string-to-int
+
+        long startTime = System.nanoTime();
 
         if ( args.length < 1 ) {
             System.out.println("One argument needed!");
@@ -184,7 +186,7 @@ public class Optional {
                 else {
                     int [][]matrix = new int[n][n];
                     createRandomGraph(matrix, n);
-                    displayMatrix(matrix, n);
+                    //displayMatrix(matrix, n);
                     displayComponents(matrix, n);
                 }
             }
@@ -193,5 +195,10 @@ public class Optional {
                 System.out.printf("Invalid");
             }
         }
+
+        long stopTime = System.nanoTime();
+
+        System.out.println("Timing = " + (stopTime - startTime) );
+
     }
 }
