@@ -21,8 +21,9 @@ public class Main {
 
         try{
             Problem p = new Problem(sources, destinations, costs);
-            p.printTheInstance();
-            p.solveUsingLeastCostMethod();
+            //p.printTheInstance();
+            //p.solveUsingLeastCostMethod();
+            p.solveUsingVogelApproximationMethod();
         }
         catch (ArithmeticException e){
             System.out.println(e.toString());
