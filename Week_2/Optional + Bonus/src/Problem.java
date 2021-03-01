@@ -177,6 +177,10 @@ public class Problem {
 
     }
 
+    /**
+     * This method will create one new row and one new column in order to store the penalty values, according to Voguel's method
+     * It will find the highest valued index from the penalty structures and it will discover the lowest value from the cost matrix
+     */
     public void solveUsingVogelApproximationMethod() {
         this.solution = new Solution();
 

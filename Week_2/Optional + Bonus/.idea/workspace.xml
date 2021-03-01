@@ -2,95 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a65413-db78-41fc-8e1d-70bc18bd3ada" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Church.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Classifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Museum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Payable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Visitable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compulsory/out/production/Compulsory/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory/out/production/Compulsory/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compulsory/out/production/Compulsory/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory/out/production/Compulsory/Problem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Compulsory/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Compulsory/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/Destination.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/Factory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/Optional.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/Problem.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/Solution.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/Source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/Warehouse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/allclasses-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/allpackages-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/element-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index-files/index-9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/jquery-ui.overrides.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/member-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/module-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/out/production/Optional/Destination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/out/production/Optional/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/out/production/Optional/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/out/production/Optional/Problem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/out/production/Optional/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/out/production/Optional/Source.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/out/production/Optional/Warehouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/package-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/resources/glass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/resources/x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/jquery-3.5.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/src/Destination.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/src/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/src/Problem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/src/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/src/Source.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/src/Warehouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/tag-search-index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Optional/type-search-index.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/Optional.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/src/Church.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/src/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/src/Classifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/src/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/src/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/src/Museum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/src/Payable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/src/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week_3/Optional/src/Visitable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_3/Compulsory/src/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Museum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_3/Compulsory/src/Museum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +54,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Week_3/Optional" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -166,5 +96,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Problem.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
