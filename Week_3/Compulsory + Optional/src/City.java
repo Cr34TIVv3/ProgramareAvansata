@@ -8,7 +8,7 @@ public class City extends Location implements Classifiable{
 
 
     public City(String name, int rank) {
-        locationList = new ArrayList<Location>();
+        locationList = new ArrayList<>();
         this.name = name;
         this.rank = rank;
     }

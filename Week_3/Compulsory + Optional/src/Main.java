@@ -1,6 +1,7 @@
 import java.time.LocalTime;
 
 public class Main {
+    // locatii redenumite
     public static void main(String[] args) {
         Location v1, v2, v3, v4, v5, v6;
         v1 = new Hotel("Hotel",8);

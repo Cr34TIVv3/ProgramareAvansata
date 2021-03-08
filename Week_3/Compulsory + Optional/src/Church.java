@@ -10,6 +10,7 @@ public class Church extends Location implements Visitable {
         this.endingHour = endingHour;
     }
 
+    //list local time
     public LocalTime[] getHoursAvailability() {
         LocalTime []output = new LocalTime[2];
         output[0] = openingHour;

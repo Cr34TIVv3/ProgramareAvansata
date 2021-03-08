@@ -31,7 +31,7 @@ public class TravelPlan {
         return null;
     }
 
-    public void Dijkstra(Location start, List<Location> doNotVisitAgain, Map<Location, Location> preceding, Map<Location, Integer> currentCost) {
+    public void dijkstra(Location start, List<Location> doNotVisitAgain, Map<Location, Location> preceding, Map<Location, Integer> currentCost) {
         if( doNotVisitAgain.size() == preceding.size()-1 ) {
             return;
         }
@@ -69,7 +69,7 @@ public class TravelPlan {
         }
         doNotVisitAgain.add(lowestEntry.getKey());
 
-        Dijkstra(start, doNotVisitAgain, preceding, currentCost);
+        dijkstra(start, doNotVisitAgain, preceding, currentCost);
 
     }
 
@@ -106,7 +106,7 @@ public class TravelPlan {
 
 
 
-        this.Dijkstra(locationStart, doNotVisitAgain, preceding, currentCost);
+        this.dijkstra(locationStart, doNotVisitAgain, preceding, currentCost);
         System.out.println("Cost = " + currentCost.get(locationFinish));
         System.out.print(locationStart.getName());
         this.printThePath(locationFinish, preceding);
