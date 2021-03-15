@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="velocity:anakia:1.0" type="repository">
+    <properties maven-id="velocity:anakia:1.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/velocity/anakia/1.0/anakia-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
