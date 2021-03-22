@@ -1,0 +1,9 @@
+.root{
+    -fx-background-color : #264653;
+
+}
+
+*{
+    /*-fx-font-size: 10px;*/
+    -fx-text-fill : #a5a58d;
+}

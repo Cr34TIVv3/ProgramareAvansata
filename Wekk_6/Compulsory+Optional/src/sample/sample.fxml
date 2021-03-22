@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="800.0" prefWidth="1166.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="137.0" prefWidth="311.0">
+               <children>
+                  <Label text="Type of shape:">
+                     <font>
+                        <Font name="Berlin Sans FB" size="32.0" />
+                     </font></Label>
+                  <RadioButton fx:id="rbtn1" mnemonicParsing="false" onAction="#squareSelected" text="Square">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="rbGroup" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rbtn2" mnemonicParsing="false" onAction="#triangleSelected" text="Triangle" toggleGroup="$rbGroup" />
+                  <RadioButton fx:id="rbtn3" mnemonicParsing="false" onAction="#circleSelected" text="Circle" toggleGroup="$rbGroup" />
+                  <RadioButton fx:id="rbtn4" selected="true" mnemonicParsing="false" onAction="#freeSelected" text="Free draw" toggleGroup="$rbGroup" />
+                  <RadioButton fx:id="rbtn5" mnemonicParsing="false" onAction="#deleteSelected" text="Delete shape" toggleGroup="$rbGroup" />
+                  <RadioButton fx:id="rbtn6" mnemonicParsing="false" onAction="#shapeRecoSelected" text="Shape recognition" toggleGroup="$rbGroup" />
+
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="137.0" prefWidth="330.0">
+               <children>
+                  <Label text="Pick a color:">
+                     <font>
+                        <Font name="Berlin Sans FB" size="40.0" />
+                     </font>
+                  </Label>
+                  <ColorPicker fx:id="colorPicker" prefHeight="93.0" prefWidth="99.0" />
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+            <VBox layoutX="321.0" layoutY="10.0" prefHeight="137.0" prefWidth="458.0">
+               <children>
+                  <Label text="Notes:">
+                     <font>
+                        <Font name="Berlin Sans FB" size="40.0" />
+                     </font>
+                  </Label>
+                  <TextArea editable="false" prefHeight="63.0" prefWidth="260.0" text="- Stroke will be choosed randomly  - Size is fixed (=50)&#10;">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </TextArea>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+      <Canvas fx:id="canvas" height="575.0" onMouseClicked="#canvasClick" width="1166.0">
+         <effect>
+            <BoxBlur />
+         </effect>
+      </Canvas>
+      <HBox prefHeight="84.0" prefWidth="1166.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#load" prefHeight="80.0" prefWidth="278.0" text="LOAD">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="5.0" right="15.0" />
+               </HBox.margin>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#save" prefHeight="80.0" prefWidth="278.0" text="SAVE">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+            </Button>
+            <Button layoutX="288.0" layoutY="10.0" mnemonicParsing="false" onAction="#reset" prefHeight="80.0" prefWidth="278.0" text="RESET">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+            </Button>
+            <Button layoutX="566.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="80.0" prefWidth="278.0" text="EXIT">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
